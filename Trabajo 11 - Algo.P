@@ -1,0 +1,13 @@
+Algoritmo PromedioAritmeticoReales
+	Definir PromedioAitmetico, num1, num2, num3 Como Real
+	
+	Imprimir "Digite uno a uno tres numero reales."
+	Imprimir "Digite el primer numero: "
+	leer num1
+	Imprimir "Digite el segundo digito: "
+	leer num2
+	Imprimir "Digite el tercer digito: "
+	leer num3
+	PromedioAitmetico = (num1 + num2 + num3 ) / 3
+	Imprimir "El Promedio de estos tres numeros dados es: ",  PromedioAitmetico
+FinAlgoritmo

@@ -1,0 +1,11 @@
+Algoritmo AreayPerimetroCirculo
+	
+	Definir radio, area, perimetro Como Real
+	imprimir "Ingrese el radio del circulo: "
+	leer radio
+	area = PI * radio^2
+	perimetro = 2 * PI * radio
+	Imprimir "El area de dicho circulo es: ", area
+	Imprimir "Y su perimetro: ", perimetro
+	
+FinAlgoritmo

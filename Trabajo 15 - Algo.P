@@ -1,0 +1,8 @@
+Algoritmo DobleyTriple
+	Definir num Como Real
+	Imprimir "Ingresa un número: "
+	leer num
+	Imprimir "El doble de este numero es: ", (num * 2)
+	Imprimir "Y su triple es: ", (num * 3)
+	
+FinAlgoritmo

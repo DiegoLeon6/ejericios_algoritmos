@@ -1,0 +1,11 @@
+Algoritmo CapitalPaises
+	definir Pais, Capital Como Caracter
+	
+	Imprimir "Digite primero el nombre de un Pais y luego su Capital: "
+	Leer Pais
+	leer Capital
+	
+	Imprimir Capital + " es la capital de " + Pais	
+	
+	
+FinAlgoritmo

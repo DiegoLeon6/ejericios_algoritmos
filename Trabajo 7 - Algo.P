@@ -1,0 +1,22 @@
+Algoritmo NetoSalarioBase
+	Definir ValorSalario, AporteSeguridadSocial, AporteSalud, AportePension Como Real
+	
+	Imprimir "En este espacio podra ver al final sus aportes correspiendientes a seguridad spcial y su salario neto: "
+
+	ValorSalario  = 1623500
+	Imprimir "Teniendo en cuenta que el SMLV (con aux. de transporte) es de: ", ValorSalario
+
+AporteSalud = 0.04 * ValorSalario
+Imprimir "Teniendo en cuenta que su aporte a salud es del 4% sobre su salario",AporteSalud
+AportePension = 0.04 * ValorSalario
+Imprimir "Teniendo en cuenta que su aporte a pension es del 4% sobre su salario",AportePension
+
+AporteSeguridadSocial = AporteSalud + AportePension
+
+Imprimir "Por lo tanto su aporte de seguridad social (Salud + Pension) corresponde a: ", AporteSeguridadSocial
+
+SalarioNeto = ValorSalario - AporteSeguridadSocial
+
+Imprimir "Y su salario neto base corresponde a: ", SalarioNeto
+
+FinAlgoritmo

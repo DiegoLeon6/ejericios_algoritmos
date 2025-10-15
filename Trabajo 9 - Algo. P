@@ -1,0 +1,13 @@
+Algoritmo VolumenDelCilindro
+	Definir radio, altura, volumen Como Real
+	Imprimir "Digite los datos requeridos y al final se mostrara el volumen del cilindro dado."
+	imprimir "Digite el radio: "
+	leer radio
+	Imprimir "Digite la altura: "
+	leer altura
+	
+	volumen = PI * radio^2 * altura
+	
+	Imprimir "El volumen de dicho cilindro es: ", volumen
+
+FinAlgoritmo

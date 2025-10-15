@@ -1,0 +1,15 @@
+Algoritmo NotaIntroduccionLogicaProgrmacion
+	Definir nota1, nota2, nota3, nota4 Como Entero
+	Imprimir "Nota Final Introducción a la Lógica de Programación"
+	imprimir "Ingresa Nota 1"
+	Leer nota1
+	imprimir "Ingresa Nota 2"
+	Leer nota2
+	Imprimir "Ingresa Nota 3"
+	leer nota3
+	Imprimir "ingresa Nota 4"
+	leer nota4
+	
+	Imprimir "Tu Nota Final es: ",  (nota1 + nota2 + nota3 + nota4) / 4
+	
+FinAlgoritmo 

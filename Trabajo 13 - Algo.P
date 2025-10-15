@@ -1,0 +1,11 @@
+Algoritmo SumadeDosNumeros
+	
+	Definir num1, num2 Como Real
+	Imprimir "Digite dos numeros para su suma: "
+	leer num1
+	leer num2
+	
+SumaNumeros = num1 + num2
+	
+	Imprimir "La suma de dichos nuneros es: ", SumaNumeros
+FinAlgoritmo

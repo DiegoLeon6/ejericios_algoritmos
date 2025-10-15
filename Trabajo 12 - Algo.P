@@ -1,0 +1,15 @@
+Algoritmo CalculoHipotenusaTrianguloRectangulo
+	Definir cateto1, cateto2, hipotenusa Como Real
+	
+	Imprimir "Digite A conrinuación los datos requeridos para hayar la hpotenusa del triángulo rectángulo dado: "
+	Imprimir "Digite el cateto N1: "
+	leer cateto1
+	Imprimir "Digite el cateto N2: "
+	leer cateto2
+	
+	hipotenusa = raiz ( cateto1^2 + cateto2^2 )
+	
+	Imprimir "La hipotenusa del  triángulo rectángulo calculado a partir del TEOREMA DE PITAGORAS es: ", hipotenusa
+	
+	
+FinAlgoritmo

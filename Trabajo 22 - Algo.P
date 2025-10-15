@@ -1,0 +1,16 @@
+Algoritmo ModuloDeDosNumeros
+	
+	Definir num1, num2 Como Real
+	Imprimir "Ingresa dos números: "
+	Imprimir "Numero 1: "
+	Leer num1
+	
+	Imprimir "Numero 2: "
+	leer num2
+	
+	Modulo = num1 mod num2
+	
+	Imprimir "El Modulo de estos números es: ", Modulo
+	
+	
+FinAlgoritmo

@@ -1,0 +1,11 @@
+Algoritmo NumeroDisminuido15PorCiento
+	
+	Definir num Como Real
+	
+	Imprimir "Generador de números"
+	num = Aleatorio(10, 50)
+	Imprimir "Número generado: ", num
+	Imprimir "Número disminuido al 15%: ", num - (num * 0.15)
+	
+	
+FinAlgoritmo

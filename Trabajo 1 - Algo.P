@@ -1,0 +1,12 @@
+Algoritmo VelocidadDadotyx	
+	
+	Definir tiempo, posicion, velocidad Como Real
+	Imprimir "Velocidad dada su posición y tiempo."
+	Imprimir "Ingrese la posición del sistema (mt): "
+	leer posicion
+	Imprimir "Ingrese el tiempo (s): "
+	leer tiempo
+	velocidad = posicion / tiempo
+	Imprimir "La velocidad determinada es: ", velocidad  " m/s"
+	
+FinAlgoritmo

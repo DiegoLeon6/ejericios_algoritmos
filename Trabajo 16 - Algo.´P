@@ -1,0 +1,10 @@
+Algoritmo CuadradoyCubo
+	
+	Definir num Como Real
+	
+	Imprimir "Ingrese un número cualquiera: "
+	leer num
+	Imprimir "Este número al Cuadrado es: ", num^2
+	Imprimir "Y al Cúbo: ", num^3
+	
+FinAlgoritmo

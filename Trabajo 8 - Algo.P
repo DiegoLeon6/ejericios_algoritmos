@@ -1,0 +1,14 @@
+Algoritmo PropiedadesDelRectangulo
+	Definir altura, base, area, perimetro Como Real
+	Imprimir "A continuación digite los datos requeridos, y al final se mostrara el área y el perimetro del rectangulo dado."
+	Imprimir "Digite la medida de la altura: "
+	leer altura
+	Imprimir "Digite la medida de la base: "
+	leer base
+	area = base * altura
+	Imprimir "Según los datos el área es: ", area
+	perimetro = 2 * (base + altura)
+	Imprimir " Y su perimetro: ", perimetro
+	
+
+FinAlgoritmo

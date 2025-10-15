@@ -1,0 +1,18 @@
+Algoritmo IntercambioPalabras
+	
+	Definir A, B, C Como Caracter
+	
+	Imprimir "Ingrese una Palabra (A): "
+	leer A
+	Imprimir "Ingrese una Palabra (B): "
+	Leer B
+	
+	C = A
+	A = B
+	B = C
+	
+	Imprimir "A = ", A
+	Imprimir "B = ", B
+	
+	
+FinAlgoritmo

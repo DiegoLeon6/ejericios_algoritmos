@@ -1,0 +1,8 @@
+Algoritmo NumeroMasUno
+	
+	Definir num Como Real
+	Imprimir "Ingresa un número cualquiera: "
+	leer num
+	Imprimir "Su consecutivo es: ", num + 1
+	
+FinAlgoritmo

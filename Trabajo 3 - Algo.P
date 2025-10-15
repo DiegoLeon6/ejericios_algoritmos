@@ -1,0 +1,13 @@
+Algoritmo TesoreriaSalario
+	
+	Definir numHoras, valorHora, salarioPagar Como Real
+	Imprimir "Ingrese el número de horas laboradas: "
+	leer numHoras
+	Imprimir "Ingrese el valor por hora: "
+	leer valorHora
+	salarioPagar = numHoras * valorHora
+	
+	Imprimir "Su Salario corresponderia a: ", salarioPagar
+
+
+FinAlgoritmo

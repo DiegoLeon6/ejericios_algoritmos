@@ -1,0 +1,12 @@
+Algoritmo ConversionUnidades
+	
+	Definir Centimetros, Pies, Yardas, Pulgadas, Metros Como Real
+	Imprimir "Ingrese un valor en Centrimetros (cm) y vera su conversióm en otras unidades: "
+	leer Centimetros
+	
+	Imprimir "Conversión a Metros: ", Centimetros / 100
+	Imprimir "Conversión a Pies: ", Centimetros / 30.48
+	Imprimir "Conversión a Yardas: ", Centimetros / 91.44
+	Imprimir "Conversión a Pulgadas: ", Centimetros / 2.54
+	
+FinAlgoritmo

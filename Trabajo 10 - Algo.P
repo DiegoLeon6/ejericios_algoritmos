@@ -1,0 +1,10 @@
+Algoritmo TemperaturaGradosaFahrenheit
+	Definir TemperaturaGrados, TemperaturaFahrenheit Como Real
+	Imprimir "A continuación podra convertir la Temperatura conocida en grados Celsius a su conversión en grados Fahrenheit."
+	Imprimir "Digite la Temperatura en Grados Celsius: "
+	leer TemperaturaGrados
+	
+	TemperaturaFahrenheit = (TemperaturaGrados * 9/5) + 32 
+	Imprimir "la Temperatura en Grados Fahrenheit es: ", TemperaturaFahrenheit
+	
+FinAlgoritmo

@@ -1,0 +1,9 @@
+Algoritmo NumeroAleatorioconAumento
+	
+	Definir num Como Real
+	Imprimir "Generador de Números Aleatorios"
+	num = Aleatorio(0,200)
+	Imprimir "Numero Generado: ", num
+	Imprimir "con un aumento del 30%: ", num * 0.30 + num
+	
+FinAlgoritmo

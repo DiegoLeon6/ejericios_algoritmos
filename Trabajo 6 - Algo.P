@@ -1,0 +1,16 @@
+Algoritmo CDT
+	Definir ValorIntereses, CantidadInvertida, PorcentajeIntereses, Perido, descuento Como Real
+	Imprimir "AL FINAL PRODRA VER SU GANANCIAS AL SER PARTE DE ESTE CDT"
+	Imprimir "Ingrese su Cantidad Invertida"
+	Leer CantidadInvertida
+	Imprimir "Ingrese el Porcentaje de Intereses"
+	Leer PorcentajeIntereses
+	Imprimir "Ingresa el Perido"
+	leer Perido
+	ValorIntereses = (CantidadInvertida *(PorcentajeIntereses * Perido))/360
+	descuento = ValorIntereses*0.007
+	NetoPagarCliente = CantidadInvertida + ValorIntereses - descuento
+	Imprimir "Sus Ganancias fueron", NetoPagarCliente
+	
+	
+FinAlgoritmo

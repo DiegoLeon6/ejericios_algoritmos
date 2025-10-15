@@ -1,0 +1,24 @@
+Algoritmo usoFuncionesdl
+	Definir num, seno, coseno, tangente, RaizCuadrada ,logaritmoNatural, logaritmo10 Como Real
+	Imprimir "ingresa un numero:"
+	Leer num
+	seno = sen (num)
+	coseno = cos (num)
+	tangente = tan (num)
+	RaizCuadrada = raiz (num)
+	logaritmoNatural = ln (num)
+	
+	Imprimir "Del numero: ", num
+	Imprimir "Su seno es: ", seno
+	Imprimir "Su Tangente es: ", tangente
+	Imprimir "Su Raiz Cuadrada es: ", RaizCuadrada
+	Imprimir "Su logaritmo natural es: ", logaritmoNatural
+	
+	
+	
+	
+	
+	
+
+	
+FinAlgoritmo
