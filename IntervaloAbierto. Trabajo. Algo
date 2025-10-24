@@ -1,0 +1,25 @@
+Algoritmo IntervaloAbierto
+	
+	definir min1, max1, min2, max2, min3, max3, num Como Entero
+	
+	Imprimir "Defina el primer intervalo: "
+	leer min1, max1
+	Imprimir "Defina el segundo intervalo: "
+	leer min2, max2
+	Imprimir "Defina el tercer intervalo: "
+	leer min3, max3
+	
+	Imprimir "Ahora ingresa un numero entero: "
+	leer num
+
+	si (num > min1 y num < max1) o (num > min2 y num < max2) o (num > min3 y num < max3) Entonces
+		
+		Imprimir "El " num " se encuentra dentro de alguno de los intervalos definidos"
+	sino 
+		Imprimir "El "  num " No se encuentra dentro de ningún intervalo."
+		
+		
+	FinSi
+	
+	
+FinAlgoritmo

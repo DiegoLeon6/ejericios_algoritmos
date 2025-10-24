@@ -1,0 +1,23 @@
+Algoritmo IntervaloCerrado
+	
+	Definir Intervalo, num, max, min como entero
+	Imprimir "Defina un Max y Min."
+	Imprimir "Indique un Minimo: "
+	leer min
+	Imprimir "Indique un Maximo: "
+	leer max
+	
+	Imprimir "Ahora digita un numero entero: "
+	leer num
+	
+	si num >= min y num <= max Entonces
+		Imprimir "Se encuentra dentro del intervalo definido Minimo: " min " Maximo: " Max
+		
+	sino 
+		Imprimir "Se encuentra fuera del intervalo definido Minimo: " min " Maximo: " Max
+		
+		
+	FinSi
+	
+	
+FinAlgoritmo

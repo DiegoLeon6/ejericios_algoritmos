@@ -1,0 +1,35 @@
+Algoritmo MayorNumero4
+	
+	Definir num1, num2, num3, num4 Como Real
+	Imprimir "Digite 4 numeros: "
+	Imprimir "Numero 1: "
+	leer num1
+	Imprimir "Numero 2: "
+	leer num2
+	Imprimir "Numero 3: "
+	leer num3
+	Imprimir "Numero 4: "
+	Leer num4
+	
+	si num1 > num2 y num1 > num3 y num1 > num4 Entonces
+		Imprimir num1 " Es el mayor de todos los numeros"
+	sino 
+		si num2 > num1 y num2 > num3 y num2 > num4 Entonces
+			Imprimir num2 " Es el mayor de todos los numeros"
+		sino 
+			si num3 > num1 y num3 > num2 y num3 > num4 Entonces
+				Imprimir num3 " Es el mayor de todos los numeros"
+			sino 
+				si num4 > num1 y num4 > num2 y num4 > num3 Entonces
+					Imprimir num4 " Es el mayor de todos los numeros"
+					
+		
+				FinSi
+			
+		
+			FinSi
+			
+		FinSi
+	FinSi
+
+FinAlgoritmo

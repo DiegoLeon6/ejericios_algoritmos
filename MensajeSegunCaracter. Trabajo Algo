@@ -1,0 +1,22 @@
+Algoritmo MensajeSegunCaracter
+	
+	Definir vocal Como Caracter
+	Imprimir "Ingrese un caracter definido entre A, I: "
+	leer vocal
+	
+	Imprimir "Su palabra clave es: "
+	si vocal == 'a' o vocal == 'A' Entonces
+		Imprimir "Android"
+	sino 
+		si vocal == 'i' o vocal == 'I' Entonces
+			Imprimir "IOS"
+		SiNo
+			Imprimir "Invalida"
+		FinSi
+		
+	FinSi
+	
+	
+	
+	
+FinAlgoritmo

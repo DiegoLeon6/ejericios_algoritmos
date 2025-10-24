@@ -1,0 +1,27 @@
+Algoritmo Cuadratica
+	
+	Definir a, b, c, dicriminante Como Real
+	
+	Imprimir "Defina los datos dados"
+	
+	Imprimir "Defina a: "
+	leer a
+	Imprimir "Defina b: "
+	leer b
+	Imprimir "Defina c: "
+	leer c
+	
+	discriminante = b^2 - 4*a*c
+	
+	si a <> 0 Entonces
+		si dicriminante >= 0 Entonces
+			Imprimir "Tiene Solución"
+		sino 
+			Imprimir "No Tiene Solución"
+		FinSi
+	Sino 
+		Imprimir "El valor de (a) no puede ser 0, por tanto no tiene solución"
+	FinSi
+	
+	
+FinAlgoritmo

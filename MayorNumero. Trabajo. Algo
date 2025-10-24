@@ -1,0 +1,16 @@
+Algoritmo MayorNumero
+	
+	Definir num1, num2 Como entero
+	Imprimir "Digite dos numeros enteros."
+	Imprimir "Numero 1: "
+	leer num1
+	Imprimir "Nummero 2: "
+	leer num2
+	
+	si num1 > num2 Entonces
+		Imprimir num1 " es mayor que " num2
+	SiNo
+		Imprimir num2 " es mayor que " num1
+	FinSi
+	
+FinAlgoritmo

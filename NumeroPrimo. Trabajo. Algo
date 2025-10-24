@@ -1,0 +1,20 @@
+Algoritmo NumeroPrimo
+	
+	Definir NumEnt Como entero
+	
+	Imprimir "Digite un numero entero definido entre 0 y 20: "
+	
+	Leer NumEnt
+	
+	si NumEnt = 2 o NumEnt = 3 o NumEnt = 5 o NumEnt = 7 o NumEnt = 11 o NumEnt = 13 o NumEnt = 17 o NumEnt = 19 Entonces
+		
+		Imprimir "Es numero Primo"
+		
+	sino 
+		Imprimir "No es numero Primo"
+		
+		
+		
+	FinSi
+	
+FinAlgoritmo

@@ -1,0 +1,23 @@
+Algoritmo NotaCurso
+	
+	definir Nota1, Nota2, Nota3, Nota4, Nota5, definitiva como real
+	
+	Imprimir "Digita las notas correspondientes al curso (entre 0.0 y 5.0): "
+	
+	Leer Nota1
+	Leer Nota2
+	Leer Nota3
+	Leer Nota4
+	Leer Nota5
+	
+	definitiva =  (Nota1 + Nota2 + Nota3 + Nota4 + Nota5) / 5
+	
+	Si definitiva >= 3.5  y definitiva < 5.0 Entonces
+		Imprimir "Aprobaste el curso: ", definitiva
+	sino 
+		Imprimir "Desaprovaste: ", definitiva
+	FinSi
+	
+	
+	
+FinAlgoritmo

@@ -1,0 +1,44 @@
+Algoritmo DescuentoArticulo
+	
+	definir desc1, desc2, desc3, desc4 Como Real
+	Definir tipo, tipoText, tipoElec, tipoCoci, tipoVidej Como Caracter
+	
+	Imprimir "Indique el tipo de articulo elegido (Textil, Electrodomestico, Elementos de cocina, Video juego): "
+	leer tipo
+	
+	
+	tipoText = "Textil"
+	tipoElec = "Electrodomestico"
+	tipoCoci = "Elementos de cocina"
+	tipoVidej = "Video juego"
+	
+	
+	
+	Si tipo = tipoText Entonces
+		Imprimir "Tienes descuento del 0%"
+	
+	sino 
+		si tipo = tipoElec Entonces
+			Imprimir "Tienes descuento del 3.7%"
+			
+		sino 
+			
+			si tipo = tipoCoci Entonces
+				Imprimir "Tienes descuento del 4.2%"
+				
+			sino 
+				si tipo = tipoVidej Entonces
+					Imprimir "Tienes descuento del 7.8%"
+				sino 
+					Imprimir "Articulo no valido"
+				FinSi
+			FinSi
+		FinSi
+			
+
+		
+	FinSi
+	
+	
+	
+FinAlgoritmo

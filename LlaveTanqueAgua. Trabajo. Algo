@@ -1,0 +1,24 @@
+Algoritmo LlaveTanqueAgua
+	
+	Definir volumen, parametro como real
+	
+	Imprimir "Indique el volumen (Litros) que se evidencia en el tanque: "
+	
+	leer volumen
+	
+	si volumen < 250 Entonces
+		
+		Imprimir " Abra la llave para que el tanque suba su nivel al indicado "
+	SiNo
+		si volumen > 450 Entonces
+			
+			Imprimir "Cierre la llave no sobrepase el nivel indicado "
+		Sino
+			
+			Imprimir " El nivel esta en el parametro indicado, no abra la llave"
+			
+			fin si
+
+	fin si
+
+FinAlgoritmo

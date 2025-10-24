@@ -1,0 +1,16 @@
+Algoritmo ArticuloDescuento
+	
+	Definir descuento, Valorarticulo, articulo Como Real
+	Imprimir "Digite el valor de su compra (Recuerda que por conpras igual mayores 150000 tienes 5% de decuento): "
+	leer Valorarticulo
+	descuento = 0.05
+	
+	si Valorarticulo > 150000 entonces
+		escribir "El total de su compra con descuento es: ", Valorarticulo - (Valorarticulo * descuento)
+
+	sino 
+		escribir"  El total de su compra es: ", Valorarticulo
+	FinSi 
+
+	
+FinAlgoritmo
