@@ -1,0 +1,64 @@
+Algoritmo ecuacionCuadratica
+	
+	definir a, b, c, x, Elineal, discri, x1, x2 como real
+	
+	Imprimir "Digite un valor para a: "
+	leer a
+	Imprimir "Digite un valor para b: "
+	leer b
+	Imprimir "Digite un valor para c: "
+	leer c
+	
+	Elineal = -c/b
+	discri = b^2 - 4*a*c
+	
+	
+	si a = 0 Entonces
+		si b = 0 Entonces
+			si c = 0 Entonces
+				Imprimir "Ecuación degenerada: infinitas soluciones"
+			SiNo
+				Imprimir "Inconsistente: sin solución"
+			FinSi
+		sino
+			Imprimir "Ecuación Lineal: ", Elineal
+			
+		FinSi
+	sino
+		Imprimir "Discriminante: ", discri
+		
+		si discri > 0 Entonces
+			raizDiscriminante = raiz(discri) 
+			x1 = (- b + raizDiscriminante) / (2*a)
+			x2 = (-b - raizDiscriminante) / (2*a)
+			Imprimir "Dos raices reales diferentes. "
+			Imprimir "x1: ", x1 
+			Imprimir "x2: ", x2
+		SiNo
+			si discri = 0 Entonces
+				x1 = -b / (2*a)
+				x2 = x1
+				Imprimir "Dos raices reales iguales"
+				Imprimir "x1: ",x1
+				Imprimir "x2: ",x2
+			sino 
+				Imprimir "No tiene raices reales"
+			FinSi
+		
+		FinSi
+		si x1 > 0 Entonces
+			si x2 > 0 Entonces
+				Imprimir "Ambas raíces positivas"
+			SiNo
+				Imprimir "Una raiz positiva y otra negativa"
+				
+			FinSi
+		sino 
+			Imprimir "Ambas raices negativas"
+		FinSi
+		
+		
+		
+		
+	FinSi
+FinAlgoritmo

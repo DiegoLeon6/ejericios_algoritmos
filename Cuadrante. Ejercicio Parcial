@@ -1,0 +1,88 @@
+Algoritmo Cuadrante
+	
+	Definir angulo, Senagu, Cosagu, anguloNormalizado, radianes Como real
+	
+	Imprimir "Defina un angulo: "
+	
+	leer angulo
+	
+	anguloNormalizado = ((angulo Mod 360) + 360) Mod 360
+	
+	Imprimir "Angulo: ", anguloNormalizado "°"
+	
+	si anguloNormalizado = 90 Entonces
+		Imprimir "Ángulo tipo recto"
+	sino 
+		si anguloNormalizado = 270 Entonces
+			Imprimir "Ángulo tipo recto"
+		SiNo
+			si anguloNormalizado = 180 Entonces
+			Imprimir "Ángulo tipo llano"
+		SiNo
+			si anguloNormalizado > 0 y anguloNormalizado < 90 Entonces
+				Imprimir "Ángulo tipo agudo"
+			sino 
+				si anguloNormalizado > 180 y anguloNormalizado < 360 Entonces
+					Imprimir "Ángulo tipo cóncavo"
+				SiNo
+					si anguloNormalizado > 90 y anguloNormalizado < 180 Entonces
+						Imprimir "Ángulo tipo obtuso"
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+FinSi
+
+si anguloNormalizado > 0 y anguloNormalizado < 90 Entonces
+	Imprimir "I"
+SiNo
+	si anguloNormalizado > 90 y anguloNormalizado < 180
+		Imprimir "II"
+		
+	SiNo
+		si anguloNormalizado > 180 y anguloNormalizado < 270 Entonces
+			
+			Imprimir "III"
+		sino 
+			si anguloNormalizado >= 270 y anguloNormalizado < 360 Entonces
+				Imprimir "IV"
+			FinSi
+		FinSi
+	FinSi
+	
+FinSi
+
+radianes = (anguloNormalizado * pi) / 180
+
+Senagu = sen ( radianes)
+Cosagu = cos (radianes)
+
+Imprimir "Seno: ", Senagu
+Imprimir "Coseno: ", Cosagu
+
+si Senagu > 0 Entonces
+	si Cosagu > 0 Entonces
+		Imprimir "Seno positivo, Coseno positivo"
+	SiNo
+		Imprimir "Seno positivo, Coseno negativo"
+	FinSi
+sino 
+	si Senagu < 0 Entonces
+		si Cosagu >= 0 Entonces
+			
+			
+			Imprimir "Seno negativo, Coseno postivo"
+		sino
+			Imprimir "Seno negativo, Coseno negativo"
+			
+			
+		FinSi
+	FinSi
+FinSi
+
+
+
+
+	
+FinAlgoritmo

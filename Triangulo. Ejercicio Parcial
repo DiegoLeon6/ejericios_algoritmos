@@ -1,0 +1,33 @@
+Algoritmo Triangulo
+	
+	Definir a, b, c, triangulo1 Como Entero
+	
+	Imprimir "Digite un valor para a: "
+	leer a
+	Imprimir "Digite un valor para b: "
+	leer b
+	Imprimir "Digite un valor para c: "
+	leer c
+	
+	
+
+	
+	si (a + b > c) y (a + c > b) y ( b + c > a) Entonces
+		Imprimir "Forma un triángulo válido."
+		si a = b y b = c Entonces
+			Imprimir "el triángulo es equilátero"
+		sino 
+			si  a = b o b = c o a = c Entonces
+				Imprimir "el triangulo es isóceles"
+			sino 
+				si a <> b y b <> c Entonces
+					Imprimir "el triangulo es escaleno"
+					
+				FinSi
+			FinSi
+		FinSi
+	SiNo
+		Imprimir 'No es triangulo valido'
+	FinSi
+	
+FinAlgoritmo
